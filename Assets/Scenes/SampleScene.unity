@@ -628,7 +628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661863170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: 14.52, z: 0}
+  m_LocalPosition: {x: 0, y: 15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -645,18 +645,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 661863170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a09c8d6cb9754429e36945305ddbf8, type: 3}
+  m_Script: {fileID: 11500000, guid: 3dee0616ec4e3cf47a400554be84d86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCd: 5
-  speed: 2
-  isMove: 0
-  enemyList: []
-  enemyDesPos: []
   enemyPrefab: {fileID: 2723213120809454647, guid: 3a0ab10be73287b4084c8e053d853bd9, type: 3}
-  player: {fileID: 355990220}
   parent: {fileID: 1128555343}
   moveDownPos: {fileID: 850614730}
+  player: {fileID: 355990220}
+  timeCd: 5
+  speed: 2
+  enemyList: []
+  enemyDesPos: []
 --- !u!1 &850614729
 GameObject:
   m_ObjectHideFlags: 0
